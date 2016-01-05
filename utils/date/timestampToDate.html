@@ -1,0 +1,22 @@
+<div class="col-sm-9">
+       <label id="sellTimeFrom" class="dateTd"> ${params['virtualBrand'].sellTimeFrom*1000} </label> ---  <label id="sellTimeTo" class="dateTd">${params['virtualBrand'].sellTimeTo*1000} </label>
+</div>
+
+
+---
+// 时间格式化
+  formatMillisecond : function() {
+      var els = $(".dateTd");
+      var dt = new Date();
+      if (els) {
+          for (var i = 0; i < els.length; i++) {
+              var eText = els[i].innerHTML;
+              if (eText == '' || eText == '0' || isNaN(eText)) {
+                  els[i].innerHTML = '--';
+                  continue;
+              }
+              dt.setTime(eText);
+              els[i].innerHTML = dt.format('yyyy-MM-dd hh:mm');
+          }
+      }
+  }
