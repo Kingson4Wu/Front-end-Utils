@@ -83,8 +83,8 @@ $(function(){
                 <div id="subTypeIdSelect" class="col-sm-0" style="display: none;">
                     <select id="subTypeId" name="subTypeId" class="validate[required]">
                         <option value="" selected>请选择</option>
-                        <option value="1">唯品团</option>
-						<option value="2">正点购</option>
+                        <option value="1">唯d</option>
+						<option value="2">正d</option>
                     </select>
                 </div>
 </div>
