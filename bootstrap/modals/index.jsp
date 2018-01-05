@@ -3,10 +3,10 @@
 
 <div class="container input_button_high" align="middle" >
 
-   <button class="btn btn-primary" type="submit" id="synchBtn">同步档期</button>
-   <button class="btn btn-primary" type="submit" id="preheatBtn">reload-预热档期</button>
-   <button class="btn btn-primary" type="submit" id="aboutOnlineBtn">reload-即将上线</button>
-   <button class="btn btn-primary" type="submit" id="saleBtn" >reload-在售档期</button>
+   <button class="btn btn-primary" type="submit" id="synchBtn">ff</button>
+   <button class="btn btn-primary" type="submit" id="preheatBtn">gg</button>
+   <button class="btn btn-primary" type="submit" id="aboutOnlineBtn">hh</button>
+   <button class="btn btn-primary" type="submit" id="saleBtn">jj</button>
 
 </div>
 <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm" id="tips" style="display:none;">Small modal</button>
